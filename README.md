@@ -19,7 +19,7 @@
 
 ## Installation
 
-For adding these classes to your environment, use [abapGit](https://github.com/larshp/abapGit).
+Preferred installation method is [abapGit](https://github.com/larshp/abapGit).
 
 ## How to use
 
@@ -90,7 +90,7 @@ lcl_test=>display( o_iter ).
 
 ```
 
-Our iterator stores the address of the locally declared table and because `ABAP` destroys local resources at the end of each function, we get a freed reference.
+Our iterator stores the address of the locally declared table and because ABAP destroys local resources at the end of each function, we get a freed reference.
 
 Lets retry with `create_frameless`:
 
