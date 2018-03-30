@@ -1,23 +1,27 @@
 # Itertools
-`ABAP Itertools` is a collection of classes which add the iterator pattern to your environment.
+`Itertools` is a collection of classes which add the iterator pattern to your environment.
 
 ## Overview
 
 	ZCL_ITER
-	|	static create_framed():		// Create a framed iterator
-	|	static create_frameless(): 	// Creates a frameless iterator
+	|	static create_framed():		// create a framed iterator
+	|	static create_frameless(): 	// creates a frameless iterator
 	|
-	|	slice(): 		// Create a slice from that iterator
-	|	has_next():		// Is there another line?
-	|	next():			// Gets the next line reference
-	|	to_string(): 	// Represent the class as string
+	|	slice(): 			// create a slice from that iterator
+	|	has_next():			// is there another line?
+	|	next():				// gets the next line reference
+	|	to_string(): 			// represent the class as string
 	|
-	|	w_size: 		// Amount of elements inside
-	|	w_moved:		// How many times was the iterator advanced?
+	|	w_size: 			// amount of elements inside
+	|	w_moved:			// how many times was the iterator advanced?
 	|
 	|--- ZCL_SLICE
 
-### How to use
+## Installation
+
+For adding these classes to your environment, use [abapGit](https://github.com/larshp/abapGit).
+
+## How to use
 
 For iterators:
 
