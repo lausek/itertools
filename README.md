@@ -95,7 +95,7 @@ Our iterator stores the address of the locally declared table and because ABAP d
 Lets retry with `create_frameless`:
 
 ```abap
-" Create a framed iterator
+" Create a frameless iterator
 fco_iter = zcl_iter=>create_frameless( CHANGING ci_table = li_nums ).
 
 " ... go outside function ...
